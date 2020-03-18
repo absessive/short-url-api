@@ -30,7 +30,7 @@ module Api
           error_response(message: e.message, status: 422)
         end
         rescue_from ActiveModel::StrictValidationFailed do |e|
-          error_response(message: e.message, status: 500)
+          error_response(message: e.message, status: 422)
         end
       end
     end

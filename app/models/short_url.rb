@@ -5,7 +5,7 @@ class ShortUrl < ApplicationRecord
   private
   
   def sanitize_original_url_and_shorten
-    self.original_url = self.original_url.downcase
+    self.original_url = original_url.downcase
     self.short_url = ShortUrlService.shorten_url
   end
 end
