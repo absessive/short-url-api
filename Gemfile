@@ -6,7 +6,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'grape'
 gem 'grape-active_model_serializers'
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
